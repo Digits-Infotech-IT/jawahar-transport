@@ -41,17 +41,18 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <div className="flex items-center">
-              <div className={`text-3xl font-extrabold ${isRTL ? 'order-last' : 'order-first'}`}>
-                <span className="text-jawaher-red">J</span>
-                <span className="text-jawaher-dark">PT</span>
-              </div>
-              <div className={`ml-2 ${isRTL ? 'ml-0 mr-2' : ''}`}>
-                <h1 className="text-xl font-bold">JAWAHER</h1>
-                <p className="text-xs uppercase tracking-wider">Passengers Transport</p>
-              </div>
+          <div className="flex items-center">
+            <img
+              src="/assets-upload/logo.jpg"
+              alt="Jawaher Logo"
+              className="w-12 h-12 object-contain rounded-full shadow mr-2"
+            />
+            <div className={`ml-2 ${isRTL ? 'ml-0 mr-2' : ''}`}>
+              <h1 className="text-xl font-bold">JAWAHER</h1>
+              <p className="text-xs uppercase tracking-wider">Passengers Transport</p>
             </div>
-          </Link>
+          </div>
+        </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">

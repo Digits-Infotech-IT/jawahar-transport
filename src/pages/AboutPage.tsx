@@ -144,6 +144,64 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
+        {/* Team Section */}
+        <div className="text-center mb-12">
+            <h2 className="text-2xl font-bold mb-4">Our Professional Team</h2>
+            <div className="w-20 h-1 bg-red-600 mx-auto mb-8"></div>
+             {/* CEO Row */}
+            <div className="flex justify-center mb-8">
+            <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center max-w-xs w-full">
+              <img 
+                src="/assets-upload/jawaher-photo.png" 
+                alt="Team member"
+                className="w-48 h-48 rounded-full mb-4 object-cover"
+              />
+              <h3 className="font-bold text-center">Jawaher</h3>
+              <p className="text-sm text-gray-600 text-center">Founder & CEO</p>
+            </div>
+          </div>
+            <div className="grid md:grid-cols-4 gap-8">
+              {/* Add more team members as needed */}
+              <div className="bg-white rounded-lg shadow-lg p-6">
+                <img 
+                  src="/assets-upload/logo.jpg" 
+                  alt="Team member"
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="font-bold">&nbsp;</h3>
+                <p className="text-sm text-gray-600">Operations Manager</p>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg p-6">
+                <img 
+                  src="/assets-upload/logo.jpg" 
+                  alt="Team member"
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="font-bold">&nbsp;</h3>
+                <p className="text-sm text-gray-600">Administrative Manager</p>
+              </div>
+              
+              <div className="bg-white rounded-lg shadow-lg p-6">
+                <img 
+                  src="/assets-upload/logo.jpg" 
+                  alt="Team member"
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="font-bold">&nbsp;</h3>
+                <p className="text-sm text-gray-600">Vehicle Maintenance Supervisor</p>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg p-6">
+                <img 
+                  src="/assets-upload/logo.jpg" 
+                  alt="Team member"
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="font-bold">&nbsp;</h3>
+                <p className="text-sm text-gray-600">Customer Service Executive</p>
+              </div> {/* Team members end */}
+              
+            </div>
+          </div>
 
         {/* Mission and Vision */}
         <section className="py-16 md:py-24 bg-white">
@@ -187,6 +245,8 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
+        
+        
       </main>
       <Footer />
     </div>
